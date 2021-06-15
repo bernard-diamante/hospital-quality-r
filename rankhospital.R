@@ -1,6 +1,6 @@
 rankhospital <- function(state, outcome, num = "best") {
    ## Read outcome data
-   dat <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+   dat <- read.csv("datasets/outcome-of-care-measures.csv", colClasses = "character")
    
    ## Check that state and outcome are valid
    if (!state %in% dat$State){

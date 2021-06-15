@@ -1,5 +1,5 @@
 best <- function(abv, outcome_name) {
-   data <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+   data <- read.csv("datasets/outcome-of-care-measures.csv", colClasses = "character")
    # Take only the necessary data
    df <- data.frame(cbind(data[, 2],  # Hospital Name
                           data[, 7],  # State

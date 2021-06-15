@@ -1,6 +1,6 @@
 rankall <- function(outcome,num="best"){
    # Read file
-   dat <- read.csv("outcome-of-care-measures.csv",colClasses="character",na.strings="Not Available")
+   dat <- read.csv("datasets/outcome-of-care-measures.csv",colClasses="character",na.strings="Not Available")
    
    # Stop if input is invalid
    disease <- c("heart attack", "heart failure", "pneumonia")
